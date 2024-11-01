@@ -1,0 +1,75 @@
+/*  Copyright 2010 Raphael Reitzig (wordpress@verrech.net)
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License, version 2, as
+    published by the Free Software Foundation.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+*/
+
+/* This stylesheet defines the look of the shortcode creation dialogue */
+
+body {
+}
+
+h3 {
+  margin-left : 13px;
+}
+
+p.comment {
+  font-size : x-small;
+}
+
+// Style options table
+#options {
+  width : 90%;
+  margin : auto;
+}
+
+#options td {
+  vertical-align : top;
+  padding : 10px;
+}
+
+#options label {
+  float : left;
+  clear : both;
+  margin-top : 4px;
+}
+
+#options span {
+  float : right;
+  clear : right;
+  margin : 3px 0px 3px 0px;
+}
+
+#imagesl {
+  border-bottom:1px dotted gray;
+}
+
+// Style buttons
+#buttons {
+  width : 100%;
+  text-align : center;
+  margin : 10px 0px 10px 0px;
+}
+
+#buttons input {
+  width : 80px;
+}
+
+div.previewer {
+  width : 90%;
+  border : 1px #dfdfdf solid;
+  border-radius: 5px;
+  -moz-border-radius : 5px;
+  margin : 5px;
+  padding : 5px;
+}
